@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "canvas_ems"
   spec.version       = CanvasEms::VERSION
   spec.authors       = ["Hoc Le"]
-  spec.email         = ["hvle@openwt.com"]
+  spec.email         = ["viethocpro@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}

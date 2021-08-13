@@ -5,7 +5,7 @@ module CanvasEms
   # Your code goes here...
   class User
     def current_user
-      render json: @current_user
+      @current_user
     end
   end
 end

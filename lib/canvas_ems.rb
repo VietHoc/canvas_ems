@@ -5,7 +5,7 @@ module CanvasEms
   # Your code goes here...
   class User
     def current_user
-      @current_user
+      User.last
     end
   end
 end

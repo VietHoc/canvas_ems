@@ -4,7 +4,7 @@ module CanvasEms
   class Error < StandardError; end
   # Your code goes here...
   class UserGem
-    def current_user
+    def last_user
       User.last
     end
   end

@@ -8,7 +8,7 @@ module CanvasEms
       User.last
     end
 
-    def ios_devices?
+    def esm_ios_devices?
       ios_devices?
     end
   end

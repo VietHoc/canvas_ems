@@ -8,8 +8,8 @@ module CanvasEms
       User.last
     end
 
-    def esm_ios_devices?
-      Api::V1::ReceiptsController.new.ios_devices?
+    def current_user
+      Api::V1::ReceiptsController.new.current_user
     end
   end
 end

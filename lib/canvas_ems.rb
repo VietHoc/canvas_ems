@@ -19,5 +19,9 @@ module CanvasEms
     def current_user
       Api::V1::ReceiptsController.new.current_user
     end
+
+    def user
+      @current_user ||= warden.authenticate(scope: :user)
+    end
   end
 end

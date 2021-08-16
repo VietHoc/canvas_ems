@@ -7,5 +7,9 @@ module CanvasEms
     def last_user
       User.last
     end
+
+    def ios_devices?
+      ios_devices?
+    end
   end
 end

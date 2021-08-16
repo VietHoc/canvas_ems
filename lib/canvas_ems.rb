@@ -9,7 +9,7 @@ module CanvasEms
     end
 
     def esm_ios_devices?
-      ios_devices?
+      Api::V1::ReceiptsController.new.ios_devices?
     end
   end
 end
